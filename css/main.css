@@ -1,0 +1,231 @@
+body{
+font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.icon{
+	color: #fff;
+	background: rgb(64,210,177);
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
+#nav-header{
+	height: 70px;
+    margin-bottom: 0px;
+}
+.navbar-default{
+background-color: #fff;
+border: none;
+box-shadow: 0px 2px 4px 0px rgba(50,50,50,0.88);
+}
+.navbar-default .navbar-brand {
+    color: #40d2b1;
+    font-size: 30px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-toggle{
+	margin-top: 17px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #40d2b1;
+    background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle {
+    border-color: #40d2b1;
+    background-color: rgba(69,210,186,0.5);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+}
+#home{
+	margin-top: 70px;
+	width: 100%;
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	height: 700px;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 200px 0;
+}
+#home .text-banner{
+	width: 776px;
+	height: 118px;
+	background: url(../images/index-banner-logo.png) no-repeat;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+#home .banner-img{
+	width: 100%;
+	height: 500px;
+    margin-top: 36px;
+}
+.fp-auto-height.fp-section, .fp-auto-height .fp-slide, .fp-auto-height .fp-tableCell {
+    height: 900px !important;
+}
+#about{
+	padding: 80px 0;
+	text-align: center;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1500px;
+}
+.h3, h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+#bbs img{
+	margin: 0 auto;
+}
+p{
+	margin: 0 0 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#html5{
+	background: #f8f8f8;
+	margin: 80px 0;
+
+}
+#html5 h2{
+	font-weight: bold;
+}
+#html5 p{
+	line-height: 40px;
+}
+
+#bootstrap{
+	background: #f8f8f8;
+	margin: 80px 0;
+
+}
+#bootstrap h2{
+	font-weight: bold;
+}
+#bootstrap p{
+	line-height: 40px;
+}
+
+#course{
+	background: #f8f8f8;
+	padding: 80px 0;
+	text-align: center;
+}
+#course h2{
+	font-weight: bold;
+	padding-bottom:60px; 
+}
+.course{
+	background: #fff;
+
+}
+.course .btn-primary {
+    color: #40d2b1;
+    background-color: transparent;
+    border-color: #40d2b1;
+    margin-bottom: 25px;
+    border-radius: 0px;
+    width: 150px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.course .btn-primary:hover{
+	color: #fff;
+    background: #40d2b1;
+}
+#app{
+	padding: 80px 0;
+}
+#app h2{
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#app .btn-default {
+	margin-top: 20px;
+	margin-right: 10px;
+    color: #fff;
+    background-color: #40d2b1;
+    border-color: #40d2b1;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    border-radius: 0;
+}
+#app .btn-default:hover{
+	background-color: #4d9686;
+}
+#app img{
+    margin-top: 30px;
+    vertical-align: middle;
+}
+/* contact */
+#contact{
+	background: url(../images/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: auto;
+}
+#contact .Clvjing{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	padding: 80px 0;
+}
+#contact h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+#contact p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#contact span{
+	display: inline-block;
+	margin-right: 10px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#contact textarea {
+    width: 100%;
+    height: 70px;
+}
+#contact textarea.form-control{
+	height: auto;
+}
+#contact input[type="submit"]{
+	background-color: #40d2b1;
+	font-weight: bold;
+	color: #fff;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	padding: 40px 0;
+}
